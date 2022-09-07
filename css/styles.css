@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  /* centers everything that DOESN'T have a width set */
+  text-align: center;
+  /* below code will try to use verdana first, but then a standard sans-serif if verdana not available */
+  font-family: 'Merriweather', serif;
+  color: #293462;
+}
+
+/* div {
+  background-color: #E8F9FD;
+  padding: 20px; */
+/* } */
+
+h1 {
+  font-size: 3.75rem;;
+  /* the font-size (in % or em) is inherited from the body styles (not static px), and then gets added onto that number e.g. body = 2em, h1 = 3em means 2*3em  */
+  /* font-size: 3.75em; */
+  /* font-size: 2rem; --> this refers to "root em" which ignores any inherited font size from the body */
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  /* width: 10%; */
+  /* set margins like below if have width set */
+  /* margin: 0 auto; */
+  /* margin: 0 auto 0 auto; */
+  color: #293462;
+  /* line-height: 2; */
+}
+
+h2 {
+  font-size: 2.25rem;
+  /* font-size: 1em; --> 1em = 16px */
+  font-family: 'Montserrat', sans-serif;
+  color: #293462;
+  /* font-weight: normal; */
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #293462;
+}
+
+hr {
+  border-color: grey;
+  border-width: 7px;
+  border-style: dotted none none none;
+  /* providing four values for border-style allows customization of all 4 sides */
+  /* border-top-style: dotted; */
+  width: 3%;
+  margin: auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  margin: 20px;
+  width: 10px;
+  text-decoration: none;
+  text-align: auto;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #E8F9FD;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+  margin: 1% 0 0 0;
+  background-color: #E8F9FD;
+  padding: 40px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  top: 93px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  bottom: 360px;
+}
+
+.top-sun {
+  position: absolute;
+  width: auto;
+  height: 100px;
+  right: 27%;
+  top: 50px;
+}
+
+.profile {
+  margin: auto;
+}
+
+.pepe {
+  height: 300px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.cat {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  /* only use float when it's really necessary (wrapping text around an object) -> don't use for positioning */
+  margin-right: 30px;
+}
+
+.chart {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  /* only use float when it's really necessary (wrapping text around an object) -> don't use for positioning */
+  margin-right: 30px;
+  background-color: blue;
+}
+
+.planning {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  /* only use float when it's really necessary (wrapping text around an object) -> don't use for positioning */
+  margin-right: 30px;
+  background-color: blue;
+}
+
+.leader {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  /* only use float when it's really necessary (wrapping text around an object) -> don't use for positioning */
+  margin-right: 30px;
+  background-color: blue;
+}
+
+.meeting {
+  width: 25%;
+  height:auto;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills {
+  width: 35%;
+  margin: auto;
+}
+
+.skill-row {
+  margin: auto;
+  text-align: left;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  background: #293462;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.linkedin-image {
+  width: 24px;
+  margin: auto;
+}
+
+.twitter-image {
+  width: 25px;
+  margin: auto;
+}
+
+.about-me {
+  margin: auto;
+  width: 35%;
+  padding-top: 3%;
+}
+
+.skill-title {
+  padding-top: 5%;
+}
+
+.copyright {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-size: .80em;
+}
